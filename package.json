@@ -1,0 +1,40 @@
+{
+  "name": "minhleo-package-button",
+  "version": "3.0.6",
+  "type": "module",
+  "exports": {
+    ".": "./index.ts",
+    "./astro": "./MyAstroComponent.astro",
+    "./svelte": "./ButtonComponent.svelte"
+  },
+  "files": [
+    "src",
+    "index.ts",
+    "MyAstroComponent.astro",
+    "ButtonComponent.svelte"
+  ],
+  "keywords": [
+    "astro",
+    "withastro",
+    "astro-component",
+    "...",
+    "..."
+  ],
+  "scripts": {},
+  "devDependencies": {
+    "astro": "^3.0.8",
+    "ts-plugin": "^0.1.5",
+    "@astrojs/svelte": "^4.0.0",
+    "tailwindcss": "3.3.3",
+    "postcss-nesting": "12.0.1",
+    "prettier": "3.0.2",
+    "prettier-plugin-astro": "0.11.0",
+    "prettier-plugin-svelte": "3.0.3",
+    "prettier-plugin-tailwindcss": "0.4.1",
+    "sass": "1.63.4",
+    "@astrojs/tailwind": "4.0.0"
+  },
+  "peerDependencies": {
+    "astro": "^2.0.0-beta.0"
+  }
+}
